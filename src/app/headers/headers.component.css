@@ -1,0 +1,156 @@
+/* Header Container */
+.header {
+    position: absolute;
+    width: 1056px;
+    height: 36px;
+    left: 270px;
+    top: 22px;
+  }
+  
+  /* Title */
+  .header-title {
+    position: absolute;
+    height: 24px;
+    left: 20.94%;
+    right: 69.47%;
+    top: 50px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #2C2C2E;
+  }
+  
+  /* Primary Button */
+  .primary-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 4px;
+    position: absolute;
+    width: 147px;
+    height: 36px;
+    right: 24px;
+    top: 44px;
+    background: #224DFF;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .primary-button-content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    width: 115px;
+    height: 20px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .primary-button-icon {
+    width: 20px;
+    height: 20px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    position: relative;
+  }
+  
+  .primary-button-icon::after {
+    content: "";
+    position: absolute;
+    left: 12.5%;
+    right: 12.5%;
+    top: 12.5%;
+    bottom: 12.5%;
+    background: #FFFFFF;
+  }
+  
+  .primary-button-text {
+    width: 91px;
+    height: 20px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  /* Secondary Button */
+  .secondary-button {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 4px;
+    position: absolute;
+    width: 101px;
+    height: 36px;
+    left: 1078px;
+    top: 44px;
+    background: #FFFFFF;
+    border: 1px solid #E5E7ED;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .secondary-button-content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    width: 69px;
+    height: 20px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .secondary-button-icon {
+    width: 20px;
+    height: 20px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    position: relative;
+  }
+  
+  .secondary-button-icon::after {
+    content: "";
+    position: absolute;
+    left: 16.67%;
+    right: 16.67%;
+    top: 16.67%;
+    bottom: 16.67%;
+    background: #696A6E;
+  }
+  
+  .secondary-button-text {
+    width: 45px;
+    height: 20px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #696A6E;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }

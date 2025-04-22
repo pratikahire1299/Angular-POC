@@ -1,0 +1,245 @@
+/* Table Container */
+.table-container {
+    position: absolute;
+    width: 1056px;
+    height: 646px;
+    left: 286px;
+    top: 98px;
+    filter: drop-shadow(0px 4px 28px rgba(45, 45, 47, 0.1));
+    border-radius: 6px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 28px rgba(45, 45, 47, 0.1);
+  }
+  
+  /* Table Header */
+  .table-header {
+    position: absolute;
+    width: 1024px;
+    height: 36px;
+    left: 16px;
+    top: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .title {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2C2C2E;
+  }
+  
+  .header-options {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .search-button, .filter-button, .more-button {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+    background: #FFFFFF;
+    border: 1px solid #E5E7ED;
+    border-radius: 6px;
+    height: 36px;
+  }
+  
+  .search-button {
+    width: 344px;
+  }
+  
+  .filter-button {
+    width: 90px;
+  }
+  
+  .more-button {
+    width: 36px;
+    justify-content: center;
+    padding: 8px;
+  }
+  
+  .search-icon, .filter-icon, .more-icon {
+    position: relative;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .search-icon::before, .search-icon::after {
+    content: "";
+    position: absolute;
+    border: 2px solid #818287;
+  }
+  
+  .search-icon::before {
+    left: 12.5%;
+    right: 20.83%;
+    top: 12.5%;
+    bottom: 20.83%;
+    border-radius: 50%;
+  }
+  
+  .search-icon::after {
+    left: 69.38%;
+    right: 12.5%;
+    top: 69.38%;
+    bottom: 12.5%;
+    transform: rotate(45deg);
+  }
+  
+  .filter-icon::before {
+    content: "";
+    position: absolute;
+    left: 12.5%;
+    right: 12.5%;
+    top: 25%;
+    bottom: 25%;
+    background: #696A6E;
+  }
+  
+  .more-icon::before {
+    content: "";
+    position: absolute;
+    left: 45%;
+    right: 45%;
+    top: 16.67%;
+    bottom: 16.67%;
+    background: #696A6E;
+  }
+  
+  .search-button span, .filter-button span {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #696A6E;
+  }
+  
+  /* Divider */
+  .divider {
+    position: absolute;
+    width: 1056px;
+    height: 0px;
+    left: 0px;
+    top: 60px;
+    border: 1px solid #E5E7ED;
+  }
+  
+  /* Table Content */
+  .table-content {
+    position: absolute;
+    width: 1056px;
+    height: 570px;
+    left: 0px;
+    top: 60px;
+    display: flex;
+  }
+  
+  .table-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+  }
+  
+  .table-column:first-child {
+    width: 180px;
+  }
+  
+  .table-column:nth-child(2) {
+    width: 170px;
+  }
+  
+  .table-column:nth-child(3), .table-column:nth-child(4) {
+    width: 180px;
+  }
+  
+  .column-header {
+    box-sizing: border-box;
+    width: 100%;
+    height: 42px;
+    background: #F7F8FA;
+    border-bottom: 1px solid #E5E7ED;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #696A6E;
+  }
+  
+  .column-values {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .table-cell {
+    box-sizing: border-box;
+    width: 100%;
+    height: 48px;
+    background: #FFFFFF;
+    border-bottom: 1px solid #E5E7ED;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+  .table-column:first-child .table-cell {
+    color: #224DFF;
+  }
+  
+  .table-column:nth-child(3) .table-cell, 
+  .table-column:nth-child(4) .table-cell {
+    color: #2C2C2E;
+  }
+  
+  .table-column:nth-child(4) .column-header,
+  .table-column:nth-child(4) .table-cell {
+    text-align: right;
+    justify-content: flex-end;
+    padding-right: 40px;
+  }
+  
+  /* Status Chips */
+  .status-chip {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 12px;
+    border-radius: 4px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .status-chip.active {
+    background: #F2FCFB;
+    border: 1px solid #F2FCFB;
+    color: #17A076;
+  }
+  
+  .status-chip.pending {
+    background: #FAF8EB;
+    border: 1px solid #FAF8EB;
+    color: #A08817;
+  }

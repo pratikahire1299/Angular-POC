@@ -1,0 +1,189 @@
+.left-navigation {
+    position: absolute;
+    width: 238px;
+    height: 720px;
+    left: 24px;
+    top: 24px;
+    filter: drop-shadow(0px 4px 28px rgba(45, 45, 47, 0.1));
+    border-radius: 8px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .logo-container {
+    padding: 28px;
+  }
+  
+  .logo {
+    width: 78px;
+    height: 20px;
+  }
+  
+  .nav-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 16px;
+    gap: 11px;
+    margin-top: 20px;
+    flex-grow: 1;
+  }
+  
+  .nav-item {
+    width: 206px;
+    height: 44px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    gap: 8px;
+    cursor: pointer;
+  }
+  
+  .nav-item.active {
+    background: #EFF2FF;
+    border-radius: 6px;
+  }
+  
+  .nav-icon {
+    width: 24px;
+    height: 24px;
+    position: relative;
+  }
+  
+  .nav-icon::after {
+    content: "";
+    position: absolute;
+    background: #3E414D;
+  }
+  
+  .dashboard-icon::after {
+    left: 12.5%;
+    right: 12.5%;
+    top: 12.5%;
+    bottom: 12.5%;
+  }
+  
+  .contacts-icon::after {
+    left: 3.96%;
+    right: 3.96%;
+    top: 18.65%;
+    bottom: 16.67%;
+    background: #224DFF;
+  }
+  
+  .hammer-icon::after {
+    left: 16.67%;
+    right: 8.33%;
+    top: 8.33%;
+    bottom: 12.5%;
+  }
+  
+  .logs-icon::after {
+    left: 16.67%;
+    right: 16.67%;
+    top: 8.33%;
+    bottom: 8.33%;
+  }
+  
+  .analytics-icon::after {
+    left: 12.5%;
+    right: 12.5%;
+    top: 12.5%;
+    bottom: 12.5%;
+    background: #224DFF;
+  }
+  
+  .account-icon::after {
+    left: 8.33%;
+    right: 8.85%;
+    top: 18.23%;
+    bottom: 12.5%;
+  }
+  
+  .screening-icon::after {
+    left: 12.5%;
+    right: 12.5%;
+    top: 12.5%;
+    bottom: 12.5%;
+  }
+  
+  .nav-text {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #2C2C2E;
+  }
+  
+  .active-text {
+    color: #224DFF;
+  }
+  
+  .divider {
+    height: 1px;
+    background: #E5E7ED;
+    margin: 0 16px;
+    align-self: stretch;
+  }
+  
+  .user-profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 16px;
+    gap: 27px;
+    height: 76px;
+  }
+  
+  .avatar {
+    width: 36px;
+    height: 36px;
+    background: #C4C4C4;
+    border-radius: 50%;
+  }
+  
+  .user-details {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    flex-grow: 1;
+  }
+  
+  .user-name {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #2C2C2E;
+  }
+  
+  .user-email {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #818287;
+  }
+  
+  .logout-icon {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .logout-icon::after {
+    content: "";
+    position: absolute;
+    left: 12.5%;
+    right: 12.5%;
+    top: 12.5%;
+    bottom: 12.5%;
+    background: #696A6E;
+  }

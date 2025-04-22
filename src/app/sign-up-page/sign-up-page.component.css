@@ -1,0 +1,371 @@
+/* sign-up.component.css */
+/* .login-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+} */
+
+.privacy-illustration {
+  position: absolute;
+  width: 292px;
+  height: 316px;
+  left: 195px;
+  top: 226px;
+  border-radius: 8px;
+}
+
+.sign-up-card {
+  /* Cards/Sign in */
+  /* Cards/Sign in */
+  position: absolute;
+  width: 480px;
+  height: 672px;
+  left: 741px;
+  top: 48px;
+  background: #ffffff;
+  box-shadow: 0px 4px 28px rgba(45, 45, 47, 0.1);
+  border-radius: 6px;
+}
+
+.sign-up-card-content {
+  position: absolute;
+  width: 384px;
+  height: 482px;
+  left: 48px;
+  top: 54px;
+}
+
+.sign-up-card-inner-content {
+  position: absolute;
+  width: 384px;
+  height: 322px;
+}
+
+.sign-up-card-form-content {
+  /* Login Credentials */
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  position: absolute;
+  width: 384px;
+  height: 240px;
+  /* left: 48px; */
+  top: 82px;
+}
+
+.sign-up-label {
+  position: absolute;
+  width: 72px;
+  height: 30px;
+  /* left: 48px; */
+  /* top: 54px; */
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2c2c2e;
+}
+
+.login-subtitle {
+  /* Label */
+  position: absolute;
+  width: 298px;
+  height: 20px;
+  /* left: 48px; */
+  top: 38px;
+  /* Body 2 */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  /* Text/Medium emphasis */
+  color: #696a6e;
+}
+
+.input-field {
+  position: absolute;
+  width: 384px;
+  height: 64px;
+  position: relative;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.input-field input {
+  box-sizing: border-box;
+  position: absolute;
+  height: 36px;
+  width: 100%;
+  top: 28px;
+  background: #ffffff;
+  border: 1px solid #e5e7ed;
+  border-radius: 4px;
+  padding: 8px 12px;
+}
+
+.input-field-label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+
+  position: absolute;
+  width: 31px;
+  height: 18px;
+  left: 0px;
+  top: 0px;
+}
+
+.label {
+  width: 31;
+  height: 18;
+}
+
+.label span {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  color: #696a6e;
+}
+
+.hide-icon {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  right: 8px;
+  top: 34px;
+  cursor: pointer;
+}
+
+.checkbox-container {
+  position: absolute;
+  width: 193px;
+  height: 24px;
+  left: 48px;
+  top: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+}
+
+.checkbox-input {
+  display: none;
+}
+
+.checkbox-custom {
+  width: 18px;
+  height: 18px;
+  border: 1px solid #696a6e;
+  border-radius: 4px;
+  position: relative;
+  cursor: pointer;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.checkbox-input:checked + .checkbox-custom {
+  background-color: #224dff;
+  border-color: #224dff;
+}
+
+.checkbox-input:checked + .checkbox-custom::after {
+  content: "";
+  position: absolute;
+  left: 12.5%;
+  right: 12.5%;
+  top: 12.5%;
+  bottom: 12.5%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='white'%3E%3Cpath d='M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.checkbox-label {
+  width: 185px;
+  height: 20px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #696a6e;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  cursor: pointer;
+}
+
+.checkbox-label a {
+  color: #224dff;
+  text-decoration: none;
+}
+
+.login-button {
+  position: absolute;
+  width: 384px;
+  height: 44px;
+  left: 48px;
+  top: 448px;
+  background: #224dff;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.signin-link {
+  position: absolute;
+  width: 177px;
+  height: 20px;
+  left: 152px;
+  top: 516px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #696a6e;
+}
+
+.signup-link a {
+  color: #224dff;
+  text-decoration: none;
+}
+
+/* 
+.checkbox-container2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+
+  position: absolute;
+  width: 193px;
+  height: 24px;
+  left: 48px;
+  top: 400px;
+}
+
+.custom-checkbox {
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+
+.custom-checkbox input[type="checkbox"] {
+  opacity: 0;
+  width: 24px;
+  height: 24px;
+  margin: 0;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.checkbox-box {
+  width: 24px;
+  height: 24px;
+  background: #E5E7ED;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.checkbox-label {
+  width: 185px;
+  height: 20px;
+
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #696A6E;
+
+  display: flex;
+  align-items: center;
+} */
+
+/* Base button styles (disabled state) */
+.signup-button {
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 4px;
+
+  position: absolute;
+  width: 384px;
+  height: 44px;
+  left: calc(50% - 384px / 2);
+  top: 448px;
+
+  /* Primary/400 */
+  background: #95aaff;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  cursor: not-allowed;
+  transition: all 0.3s ease;
+
+  /* Active state when policy is accepted */
+  &.active {
+    /* Primary/500 */
+    background: #224dff;
+    cursor: pointer;
+
+    &:hover {
+      background: #1a3fd9;
+      box-shadow: 0px 2px 6px rgba(34, 77, 255, 0.3);
+    }
+  }
+}
+
+/* Checkbox styles (from previous implementation) */
+.checkbox-container {
+  position: absolute;
+  width: 193px;
+  height: 24px;
+  left: 48px;
+  top: 400px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.checkbox-input {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
